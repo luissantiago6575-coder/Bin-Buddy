@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin Buddy – Never Miss Trash Day Again</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bold comic font for headings and friendly sans-serif for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="container bar">
+            <div class="brand">
+                <span class="brand-icon" aria-hidden="true">🦸‍♂️</span>
+                <span class="brand-name">Bin Buddy</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#plans">Plans</a>
+                <a href="#contact">Contact</a>
+                <a href="#signup" class="btn btn-small">Sign Up</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-inner">
+            <div class="hero-image">
+                <img src="images/poster.jpg" alt="Bin Buddy superhero poster showing our trash-can hero with cape" />
+            </div>
+            <div class="hero-content">
+                <h1>Never miss trash day again</h1>
+                <p>We roll your bins out – and back again – so you never have to stress about pickup.</p>
+                <a href="#signup" class="btn btn-large btn-green">Sign Up – Free Reminder</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Plans Section -->
+    <section class="plans-section" id="plans">
+        <div class="container">
+            <h2>Affordable plans for every home</h2>
+            <div class="plans-list">
+                <div class="plan-item">
+                    <h3>Basic Service</h3>
+                    <p><strong>$10/week</strong> – Trash + Recycling curb service</p>
+                </div>
+                <div class="plan-item">
+                    <h3>Plus Service</h3>
+                    <p><strong>$15/week</strong> – Trash + Recycling + Bin Return</p>
+                </div>
+                <div class="plan-item">
+                    <h3>Vacation Cover</h3>
+                    <p><strong>$5 extra/week</strong> – We’ll cover you while you’re away</p>
+                </div>
+                <div class="plan-item">
+                    <h3>Cleaning Add‑On</h3>
+                    <p><strong>+$10/month</strong> – Keep your bins smelling fresh</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section class="signup-section" id="signup">
+        <div class="container">
+            <h2>Ready to make trash day easy?</h2>
+            <p>Fill out this quick form and we’ll be in touch to confirm your plan and schedule.</p>
+            <form class="signup-form" action="mailto:L.santiago2@iCloud.com" method="post" enctype="text/plain">
+                <label>Full Name
+                    <input type="text" name="name" required />
+                </label>
+                <label>Address
+                    <input type="text" name="address" required />
+                </label>
+                <label>Phone
+                    <input type="tel" name="phone" required />
+                </label>
+                <label>Email
+                    <input type="email" name="email" required />
+                </label>
+                <label>Plan
+                    <select name="plan">
+                        <option>Basic ($10/week)</option>
+                        <option>Plus ($15/week)</option>
+                        <option>Vacation Cover (+$5/week)</option>
+                        <option>Cleaning Add‑On (+$10/month)</option>
+                    </select>
+                </label>
+                <label>Notes (optional)
+                    <textarea name="notes" rows="3" placeholder="Tell us your pickup day or any gate codes..."></textarea>
+                </label>
+                <button type="submit" class="btn btn-large btn-green">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="container contact-inner">
+            <div class="contact-info">
+                <h3>Contact</h3>
+                <p><strong>Phone:</strong> <a href="tel:+18638083540">863‑808‑3540</a></p>
+                <p><strong>Email:</strong> <a href="mailto:L.santiago2@iCloud.com">L.santiago2@iCloud.com</a></p>
+                <p><strong>Website:</strong> <a href="https://binbuddy.com" target="_blank">binbuddy.com</a></p>
+            </div>
+            <div class="cta-block">
+                <h3>Never forget trash day again</h3>
+                <a href="#signup" class="btn btn-large btn-green">Sign Up Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+            <p>© Bin Buddy, Ruskin Florida</p>
+            <p>Built with love &amp; hustle</p>
+        </div>
+    </footer>
+</body>
+</html>
