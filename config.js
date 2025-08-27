@@ -1,11 +1,13 @@
 // BINBUDDY CONFIG
 window.APP_CONFIG = {
   businessName: "BinBuddy",
-  contactEmail: "binbuddy@example.com",
+  contactEmail: "L.santiago2@icloud.com",
 
   booking: {
     // Replace with your real Calendly link, e.g. https://calendly.com/binbuddy/15min
-    calendlyEmbedUrl: "https://calendly.com/your-handle/15min"
+    calendlyEmbedUrl: "booking: {
+  // Replace with your real Calendly link
+  calendlyEmbedUrl:"mailto:luis.santiago6575@gmail.com?subject=BinBuddy%20Scheduling&body=Name:%0AAddress:%0APickup%20day:%0APhone:%0ANotes:"
   },
 
   services: [
