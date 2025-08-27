@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book & Pay – Starter</title>
+  <link rel="icon" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="assets/favicon.svg" alt="logo" class="logo">
+        <div>
+          <h1 id="businessName">Your Business</h1>
+          <p class="tagline">Simple scheduling & secure payments</p>
+        </div>
+      </div>
+      <a class="btn ghost" href="booking.html">Open Scheduler</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Book & Pay in 2 easy steps</h2>
+      <ol class="steps">
+        <li><span>1</span> Choose a service below and click <b>Pay</b>.</li>
+        <li><span>2</span> Then click <b>Schedule</b> to pick your time.</li>
+      </ol>
+      <p class="notice">After payment, you can adjust time via the scheduler confirmation email.</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <div id="services" class="cards"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Questions?</h4>
+        <p>Email <a id="contactEmail" href="#">you@example.com</a></p>
+      </div>
+      <div>
+        <h4>Scheduling</h4>
+        <p><a href="booking.html">Open the full-page scheduler</a></p>
+      </div>
+      <div>
+        <h4>Powered by</h4>
+        <p>Stripe Payment Links & Calendly/Cal.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

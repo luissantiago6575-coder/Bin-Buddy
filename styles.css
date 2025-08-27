@@ -1,0 +1,32 @@
+*{box-sizing:border-box}html,body{margin:0;padding:0}body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f6f8fb;color:#0e1116;line-height:1.5}
+.container{max-width:1100px;margin:0 auto;padding:0 16px}
+.site-header{background:#ffffff;position:sticky;top:0;z-index:10;border-bottom:1px solid #e8edf3}
+.site-header .container{display:flex;align-items:center;justify-content:space-between;padding:14px 16px}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:36px;height:36px}
+.logo.xl{width:64px;height:64px;margin-bottom:6px}
+h1{font-size:20px;margin:0}
+.tagline{margin:0;color:#61708a}
+.btn{display:inline-block;padding:10px 16px;border-radius:10px;background:#0e61ff;color:#fff;text-decoration:none;font-weight:600;border:1px solid #0e61ff}
+.btn:hover{opacity:.95}
+.btn.ghost{background:#fff;color:#0e61ff}
+.hero{background:linear-gradient(180deg,#f0f5ff,#f6f8fb 50%);padding:32px 0;border-bottom:1px solid #e8edf3}
+.hero h2{margin:.2rem 0 1rem 0;font-size:28px}
+.steps{list-style:none;padding:0;margin:0 0 8px 0;display:flex;gap:18px;flex-wrap:wrap}
+.steps li{display:flex;align-items:center;gap:10px;background:#fff;border:1px solid #e8edf3;padding:10px 14px;border-radius:12px}
+.steps li span{display:inline-grid;place-items:center;background:#0e61ff;color:#fff;width:22px;height:22px;border-radius:50%;font-weight:700}
+.notice{color:#4b5a73}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:24px 0 40px}
+.card{background:#fff;border:1px solid #e8edf3;border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 24px rgba(14,17,22,.02)}
+.card h3{margin:0 0 4px;font-size:20px}
+.price{font-weight:800;font-size:22px}
+.card p{margin:.2rem 0;color:#3a465a}
+.card .actions{display:flex;gap:10px;flex-wrap:wrap}
+.badge{display:inline-block;font-size:12px;background:#eef4ff;color:#0e61ff;border:1px solid #d7e6ff;padding:3px 8px;border-radius:999px}
+.site-footer{background:#ffffff;border-top:1px solid #e8edf3}
+.site-footer .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;padding:16px 0}
+.center-page{min-height:70vh;display:grid;place-items:center;text-align:center;padding:24px}
+.center .btn{margin-top:10px}
+.muted{color:#667792}
+.center{text-align:center}
+code{background:#eef2f7;border-radius:6px;padding:2px 6px}
